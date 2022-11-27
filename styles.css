@@ -1,0 +1,41 @@
+h1 {
+    text-align: center;
+}
+header {
+    background-color: white;
+    padding: 7px;
+}
+body {
+    background-color: rgb(196, 196, 196);
+    margin: 0px;
+    font-family: 'Maven Pro', sans-serif;
+}
+.photos {
+    object-fit: cover;
+	object-position: center;
+	width: 500px;
+	height: 300px;
+    border: 0px;
+}
+#content {
+    margin: 40px;
+}
+.post {
+    background: white;
+    height: auto;
+    width: 500px;
+    border: 40px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+.post p {
+    display: inline-block;
+    padding: 0px 15px;
+}
+.date {
+    color: grey;
+}
+.head {
+    display: flex;
+    justify-content: space-between;
+}
